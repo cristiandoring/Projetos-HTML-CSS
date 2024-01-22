@@ -1,7 +1,13 @@
 @charset "UTF-8";
-
+@font-face {
+    font-family: 'idroid' ;
+    src: url('idroid.otf') format(otf);
+    font-weight: normal;
+    font-style: normal;
+}
 body{
     background-color: rgb(152, 255, 152);
+    font-family: 'idroid' ;
 }
 header{
     background-image: linear-gradient(to bottom, rgb(27, 62, 27),rgb(32, 177, 32));
@@ -29,6 +35,7 @@ header > h1{
     margin-right: 15px;
     text-align: start;
     padding-bottom: 5px;
+    font-weight: bold;
 
     
 }
@@ -43,3 +50,10 @@ footer{
     margin: auto;
     text-align: center;
 }
+
+h2{
+    background-image: linear-gradient(to right, rgba(111, 164, 111, 0.7), white);
+    color: rgb(27, 62, 27);
+    font-family: 'idroid', 'serif' ;
+}
+
