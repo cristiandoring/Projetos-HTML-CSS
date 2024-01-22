@@ -1,9 +1,45 @@
 @charset "UTF-8";
 
+body{
+    background-color: rgb(152, 255, 152);
+}
 header{
-    background-color: rgb(13, 152, 13);
+    background-image: linear-gradient(to bottom, rgb(27, 62, 27),rgb(32, 177, 32));
     color: white;
-    text-align: center;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
     
+}
 
+header > p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.875);
+
+}
+header > h1{
+    text-align: center;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: 15px;
+    text-align: start;
+    padding-bottom: 5px;
+
+    
+}
+
+main{
+    background-color: white;
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
+
+footer{
+    margin: auto;
+    text-align: center;
 }
