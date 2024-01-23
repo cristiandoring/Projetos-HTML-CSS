@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    padding: 10px 50px;
+    padding: 10px 20px;
     font-family: 'Poppins', sans-serif;
+    max-width: 1920px;
+    max-height: 1080px;
 
 }
 
@@ -14,19 +16,30 @@
     align-items: center;
     margin:10px ;
 }
+.copo-peq{
+    width: 120px;
+    margin-top: 100px;
+
+
+}
 
 .texto{
-    width: 600px;
+    width: 500px;
+    
 }
 
 .img1{
-    width: 600px;
+    width: 400px;
     display: flex;
     justify-content: flex-end;
     margin-top: 50px;
 }
 
-
+.logo{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
 button{
     background-color: rgb(3, 53, 3);
     color: white;
@@ -36,6 +49,7 @@ button{
     border-radius: 25px;
     border: none;
     margin-top: 50px;
+    margin-left: -140px;
 
     
     
@@ -67,6 +81,8 @@ span{
 .copinhos{
     display: flex;
     justify-content: center;
+    margin-top: -200px;
+
 }
 
 .fundo-copo{
@@ -76,7 +92,7 @@ span{
     position: absolute;
     top: 0;
     left: 0;
-    clip-path: circle(700px at right 700px);
+    clip-path: circle(500px at right 500px);
 
 
 }
