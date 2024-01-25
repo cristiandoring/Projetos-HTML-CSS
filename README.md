@@ -2,7 +2,7 @@
  Projetos em HTML e CSS
 
 Template Starbucks
-![Alt text](image.png)
+![Alt text](Starbucks-template.png)
 
 
 História do Android
